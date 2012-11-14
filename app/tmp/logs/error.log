@@ -3056,3 +3056,7 @@
 #14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
 #16 {main}
+2012-11-14 16:15:30 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}

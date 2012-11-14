@@ -8,8 +8,7 @@ class Record extends AppModel {
     
     public $validate = array(
         'numCallerid' => array('rule' => 'notEmpty'),
-        'fileSource' => array('rule' => 'notEmpty'),
-        'dirSource' => array('rule' => 'notEmpty'),
+        'dirSource' => array('rule' => 'notEmpty'),        
         'indexed' => array('rule' => 'notEmpty'),
         'FK_fileserver' => array('rule' => 'notEmpty')
     );
