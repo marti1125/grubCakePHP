@@ -1,0 +1,24 @@
+/* 
+    Document   : app.css
+    Created on : 06/11/2012, 04:13:33 PM
+    Author     : Willy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#form {
+    margin: 0 auto;
+    width: 380px;
+    height: 300px;
+    background: white;
+    padding: 10px;
+}
+
+.titulo {
+    font-size: 28px;
+    text-align: center;
+}
