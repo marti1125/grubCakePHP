@@ -2,12 +2,13 @@
 
     <div class="portlet x9">
         
-        <div class="portlet-header"><h4>Agregar  Grabación</h4></div>
+        <div class="portlet-header"><h4>Acualizar  Grabación</h4></div>
 
         <div class="portlet-content">
 
             <?php
             echo $this->Form->create('Record', array('class' => 'formulario'), array('action' => 'edit'));
+            echo $this->Form->input('PK_record', array('type' => 'hidden'));
             echo "<div class=fieldadd>" . $this->Form->input('numCallerid', array('label' => 'Numero')) . "</div>";
             echo "<div class=fieldadd>" . $this->Form->input('Record.fileSource', array('type' => 'file')) . "</div>"; 
             echo "<div class=fieldadd>" . $this->Form->input('dirSource', array('label' => 'Directorio')) . "</div>";

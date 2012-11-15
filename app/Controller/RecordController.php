@@ -30,7 +30,7 @@ class RecordController extends AppController {
 
         $this->layout = 'home';
 
-        $this->Record->PK_record = $PK_record;
+        $this->Record->id = $PK_record;
         if ($this->request->is('get')) {
             $this->request->data = $this->Record->read();
         } else {

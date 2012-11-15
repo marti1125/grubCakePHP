@@ -57,7 +57,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 
                                 <p>
                                     Logged in as Admin
-                                    <?php echo $this->Html->link('logout', array('controller' => 'user', 'action' => 'logout')); ?>
+                                    <?php echo $this->Html->link('logout', array('controller' => 'users', 'action' => 'logout')); ?>
                                 </p>
 
                             </div> <!-- #info -->
@@ -80,6 +80,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 
                                     <div class="mega-content mega-menu ">
                                         <ul>  
+                                            <li><?php echo $this->Html->link('Usuarios', array('controller' => 'users', 'action' => 'index')); ?></li>
                                             <li><?php echo $this->Html->link('Grabaciones', array('controller' => 'record', 'action' => 'index')); ?></li>
                                             <li><?php echo $this->Html->link('Agentes', array('controller' => 'agent', 'action' => 'index')); ?></li>
                                             <li><?php echo $this->Html->link('Audios', array('controller' => 'audio', 'action' => 'index')); ?></li>
