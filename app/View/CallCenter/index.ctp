@@ -17,7 +17,7 @@
             <tr class="gradeA">
                     <td><?php echo $callcenter['CallCenter']['PK_callcenter']; ?></td>
                     <td><?php echo $callcenter['CallCenter']['callcenter']; ?></td>
-                    <td><?php echo $callcenter['CallCenter']['FK_company']; ?></td>                    
+                    <td><?php echo $callcenter['Company']['company']; ?></td>                    
             </tr>
             <?php endforeach; ?>
             <?php unset($callcenters); ?>

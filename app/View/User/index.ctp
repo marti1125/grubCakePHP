@@ -3,7 +3,7 @@
         <div class="portlet-header"><h4>Usuarios</h4></div>
         <br/>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $this->Html->link('Agregar Usuario', array('controller' => 'users', 'action' => 'add'), array('class' => 'btn')); ?>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $this->Session->flash(); ?>
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $this->Session->flash(); ?>
 
         <div class="portlet-content">
 

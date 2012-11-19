@@ -3850,3 +3850,885 @@
 #0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
 #2 {main}
+2012-11-15 16:52:10 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'file_server_id'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(11): Model->find('all')
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 16:56:38 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'file_server_id'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(11): Model->find('all')
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 16:56:44 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'file_server_id'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(11): Model->find('all')
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 16:59:02 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'file_server_id'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(11): Model->find('all')
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 17:01:30 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'file_server_id'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(11): Model->find('all')
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 17:02:37 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'file_server_id'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(11): Model->find('all')
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 17:02:44 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'file_server_id'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(11): Model->find('all')
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 17:02:57 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'file_server_id'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(11): Model->find('all')
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 17:03:56 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'file_server_id'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(11): Model->find('all')
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 17:05:33 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'file_server_id'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(11): Model->find('all')
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 17:05:35 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'file_server_id'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(11): Model->find('all')
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 17:05:38 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'file_server_id'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(11): Model->find('all')
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 17:06:38 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php, line 18]
+2012-11-15 17:06:38 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 18, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\cak...', 18, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-15 17:06:58 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php, line 18]
+2012-11-15 17:06:58 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 18, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\cak...', 18, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-15 17:06:59 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php, line 18]
+2012-11-15 17:06:59 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 18, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\cak...', 18, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-15 17:07:01 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php, line 18]
+2012-11-15 17:07:01 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 18, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\cak...', 18, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-15 17:07:02 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php, line 18]
+2012-11-15 17:07:02 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 18, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\cak...', 18, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-15 17:07:03 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php, line 18]
+2012-11-15 17:07:03 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 18, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\cak...', 18, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-15 17:08:10 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php, line 18]
+2012-11-15 17:08:10 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 18, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\cak...', 18, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-15 17:08:14 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php, line 18]
+2012-11-15 17:08:14 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 18, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\cak...', 18, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-15 17:09:02 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php, line 18]
+2012-11-15 17:09:02 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 18, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\cak...', 18, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-15 17:11:20 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php, line 18]
+2012-11-15 17:11:20 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 18, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\cak...', 18, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-15 17:28:21 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-15 18:17:19 Error: Fatal Error (1): Unsupported operand types in [C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php, line 843]
+2012-11-15 18:17:19 Error: [FatalErrorException] Unsupported operand types
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\wamp\www\cak...', 843)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\wamp\www\cak...', 843, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\wamp\www\cak...', 843, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-15 20:01:27 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'id'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(32): Model->find('all', Array)
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 20:03:55 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The correlation name 'Record' is specified multiple times in a FROM clause.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(33): Model->find('all', Array)
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 20:04:25 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The correlation name 'Record' is specified multiple times in a FROM clause.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(33): Model->find('all', Array)
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 20:05:09 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The correlation name 'Record' is specified multiple times in a FROM clause.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(33): Model->find('all', Array)
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 20:06:00 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The correlation name 'Record' is specified multiple times in a FROM clause.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(33): Model->find('all', Array)
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 20:06:30 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'id'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(33): Model->find('all', Array)
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 20:07:00 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'id'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(33): Model->find('all', Array)
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 20:07:30 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "FileServer.FK_fileserver" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(33): Model->find('all', Array)
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 20:07:48 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "FileServer.id" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(33): Model->find('all', Array)
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 20:11:09 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "FileServer.Pk_fileserver" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(34): Model->find('all', Array)
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 20:13:15 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "FileServer.Pk_fileserver" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(34): Model->find('all', Array)
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 20:13:37 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "FileServer.id" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(34): Model->find('all', Array)
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 20:13:56 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "Fileserver.id" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(34): Model->find('all', Array)
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 20:14:26 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "Fileserver.Pk_fileserver" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(34): Model->find('all', Array)
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 20:14:48 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "Fileserver.Fk_fileserver" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(34): Model->find('all', Array)
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 20:15:07 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "Fileserver.Fk_fileserver" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(34): Model->find('all', Array)
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 20:15:23 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "Fileserver.id" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(34): Model->find('all', Array)
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 20:30:25 Error: Fatal Error (1): Cannot use string offset as an array in [C:\wamp\www\cakephpsqlserv\app\View\Record\index.ctp, line 26]
+2012-11-15 20:30:25 Error: [FatalErrorException] Cannot use string offset as an array
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Cannot use stri...', 'C:\wamp\www\cak...', 26)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use stri...', 'C:\wamp\www\cak...', 26, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use stri...', 'C:\wamp\www\cak...', 26, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-15 20:31:11 Error: Fatal Error (1): Cannot use string offset as an array in [C:\wamp\www\cakephpsqlserv\app\View\Record\index.ctp, line 26]
+2012-11-15 20:31:11 Error: [FatalErrorException] Cannot use string offset as an array
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Cannot use stri...', 'C:\wamp\www\cak...', 26)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use stri...', 'C:\wamp\www\cak...', 26, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use stri...', 'C:\wamp\www\cak...', 26, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-15 20:37:04 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'id'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(33): Model->find('all', Array)
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 20:37:38 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'Pk_fileserver'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(33): Model->find('all', Array)
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 20:37:56 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The correlation name 'FileServer' is specified multiple times in a FROM clause.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(33): Model->find('all', Array)
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 20:57:34 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php, line 593]
+2012-11-15 20:57:34 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\wamp\www\cak...', 593)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\wamp\www\cak...', 593, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\wamp\www\cak...', 593, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-15 20:58:18 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php, line 593]
+2012-11-15 20:58:18 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\wamp\www\cak...', 593)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\wamp\www\cak...', 593, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\wamp\www\cak...', 593, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-15 21:26:29 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-15 21:28:07 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-15 21:39:57 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-15 21:40:16 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-15 21:40:49 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-15 21:41:04 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-15 21:41:42 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-15 21:48:41 Error: [PDOException] SQLSTATE[42S02]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid object name 'companies'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [CallCe...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [CallCe...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [CallCe...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [CallCe...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(CallCenter), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(CallCenter), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\CallCenterController.php(25): Model->find('all', Array)
+#8 [internal function]: CallCenterController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(CallCenterController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(CallCenterController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 21:48:50 Error: [PDOException] SQLSTATE[42S02]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid object name 'companies'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [CallCe...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [CallCe...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [CallCe...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [CallCe...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(CallCenter), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(CallCenter), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\CallCenterController.php(25): Model->find('all', Array)
+#8 [internal function]: CallCenterController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(CallCenterController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(CallCenterController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 21:50:12 Error: [PDOException] SQLSTATE[42S02]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid object name 'companies'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [CallCe...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [CallCe...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [CallCe...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [CallCe...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(CallCenter), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(CallCenter), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\CallCenterController.php(25): Model->find('all', Array)
+#8 [internal function]: CallCenterController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(CallCenterController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(CallCenterController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 21:50:17 Error: [PDOException] SQLSTATE[42S02]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid object name 'companies'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [CallCe...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [CallCe...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [CallCe...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [CallCe...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(CallCenter), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(CallCenter), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\CallCenterController.php(25): Model->find('all', Array)
+#8 [internal function]: CallCenterController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(CallCenterController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(CallCenterController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 21:50:23 Error: [PDOException] SQLSTATE[42S02]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid object name 'companies'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [CallCe...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [CallCe...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [CallCe...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [CallCe...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(CallCenter), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(CallCenter), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\CallCenterController.php(25): Model->find('all', Array)
+#8 [internal function]: CallCenterController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(CallCenterController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(CallCenterController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 21:54:59 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'id'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [CallCe...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [CallCe...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [CallCe...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [CallCe...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(CallCenter), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(CallCenter), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\CallCenterController.php(13): Model->find('all')
+#8 [internal function]: CallCenterController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(CallCenterController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(CallCenterController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-15 22:00:55 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-15 22:04:39 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('Auth')
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(813): HelperCollection->__isset('Auth')
+#2 C:\wamp\www\cakephpsqlserv\app\View\Layouts\home.ctp(60): View->__get('Auth')
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(921): include('C:\wamp\www\cak...')
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(884): View->_evaluate('C:\wamp\www\cak...', Array)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(540): View->_render('C:\wamp\www\cak...')
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(484): View->renderLayout('', 'home')
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#12 {main}
+2012-11-15 22:05:10 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [C:\wamp\www\cakephpsqlserv\app\View\Layouts\home.ctp, line 20]
+2012-11-15 22:05:10 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 20, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 20, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-15 22:05:29 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('Auth')
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(813): HelperCollection->__isset('Auth')
+#2 C:\wamp\www\cakephpsqlserv\app\View\Layouts\home.ctp(62): View->__get('Auth')
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(921): include('C:\wamp\www\cak...')
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(884): View->_evaluate('C:\wamp\www\cak...', Array)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(540): View->_render('C:\wamp\www\cak...')
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(484): View->renderLayout('', 'home')
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#12 {main}
+2012-11-15 22:05:50 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-15 22:06:10 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('Auth')
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(813): HelperCollection->__isset('Auth')
+#2 C:\wamp\www\cakephpsqlserv\app\View\Layouts\home.ctp(62): View->__get('Auth')
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(921): include('C:\wamp\www\cak...')
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(884): View->_evaluate('C:\wamp\www\cak...', Array)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(540): View->_render('C:\wamp\www\cak...')
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(484): View->renderLayout('', 'home')
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#12 {main}
+2012-11-15 22:06:10 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-15 22:07:38 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-15 22:08:49 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-15 22:20:20 Error: Fatal Error (1): Class 'AuthComponent' not found in [C:\wamp\www\cakephpsqlserv\app\Controller\UsersController.php, line 3]
+2012-11-15 22:20:20 Error: [FatalErrorException] Class 'AuthComponent' not found
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', 'C:\wamp\www\cak...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', 'C:\wamp\www\cak...', 3, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', 'C:\wamp\www\cak...', 3, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-15 22:20:29 Error: Fatal Error (1): Class 'AuthComponent' not found in [C:\wamp\www\cakephpsqlserv\app\Controller\UsersController.php, line 3]
+2012-11-15 22:20:29 Error: [FatalErrorException] Class 'AuthComponent' not found
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', 'C:\wamp\www\cak...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', 'C:\wamp\www\cak...', 3, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', 'C:\wamp\www\cak...', 3, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-15 22:20:44 Error: Fatal Error (1): Class 'AuthComponent' not found in [C:\wamp\www\cakephpsqlserv\app\Controller\UsersController.php, line 3]
+2012-11-15 22:20:44 Error: [FatalErrorException] Class 'AuthComponent' not found
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', 'C:\wamp\www\cak...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', 'C:\wamp\www\cak...', 3, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', 'C:\wamp\www\cak...', 3, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-15 22:20:46 Error: Fatal Error (1): Class 'AuthComponent' not found in [C:\wamp\www\cakephpsqlserv\app\Controller\UsersController.php, line 3]
+2012-11-15 22:20:46 Error: [FatalErrorException] Class 'AuthComponent' not found
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', 'C:\wamp\www\cak...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', 'C:\wamp\www\cak...', 3, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', 'C:\wamp\www\cak...', 3, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-15 22:20:49 Error: Fatal Error (1): Class 'AuthComponent' not found in [C:\wamp\www\cakephpsqlserv\app\Controller\UsersController.php, line 3]
+2012-11-15 22:20:49 Error: [FatalErrorException] Class 'AuthComponent' not found
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', 'C:\wamp\www\cak...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', 'C:\wamp\www\cak...', 3, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', 'C:\wamp\www\cak...', 3, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-15 22:21:48 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-15 22:22:40 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-19 16:36:46 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}

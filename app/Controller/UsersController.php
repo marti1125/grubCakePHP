@@ -2,7 +2,7 @@
 
 class UsersController extends AppController {
 
-    public $name = 'User';
+    public $name = 'User'; 
 
     public $helpers = array('Html', 'Form');    
 
@@ -24,10 +24,13 @@ class UsersController extends AppController {
     }
 
     public function index() {
-
+        
+        $username = $this->Auth->user('username');      
+       
         $this->layout = 'home';
 
-        $this->set('users', $this->User->find('all'));
+        $this->set('users', $this->User->find('all')); 
+        
     }
 
     public function login() {
@@ -50,10 +53,10 @@ class UsersController extends AppController {
         if ($this->request->is('post')) {
             $this->User->create();
             if ($this->User->save($this->request->data)) {
-                $this->Session->setFlash(__('The user has been saved'));
+                $this->Session->setFlash(__('El usuario se a guardado'));
                 $this->redirect(array('action' => 'index'));
             } else {
-                $this->Session->setFlash(__('The user could not be saved. Please, try again.'));
+                $this->Session->setFlash(__('El usuario no se ah podido guardar.'));
             }
         }
     }

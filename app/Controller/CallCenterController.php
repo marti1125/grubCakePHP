@@ -6,23 +6,15 @@ class CallCenterController extends AppController {
 
     public function index() {
 
-        $options['joins'] = array(
-            array('table' => 'companies',
-                'alias' => 'Companies',
-                'type' => 'LEFT',
-                'conditions' => array(
-                    'Companies.PK_company = CallCenter.FK_company',
-                )
-            )
-        );
-
-        $options['conditions'] = array(
-            'Companies.company' => 'Atento'
-        );
-
         $this->layout = 'home';
+        
+        $this->CallCenter->recursive = 1;
+        
+        $callcenters = $this->CallCenter->find('all');
+        
+        $this->set('callcenters', $callcenters);
 
-        $this->set('callcenters', $this->CallCenter->find('all', $options));
+        //$this->set('callcenters', $this->CallCenter->find('all'));
     }
 
 }

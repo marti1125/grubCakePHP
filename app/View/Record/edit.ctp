@@ -14,7 +14,7 @@
             echo "<div class=fieldadd>" . $this->Form->input('dirSource', array('label' => 'Directorio')) . "</div>";
             echo "<div class=fieldadd>" . $this->Form->input('indexed', array('label' => 'Indice')) . "</div>";
             echo "<div class=fieldadd>" . $this->Form->input('dateFileSource', array('label' => 'Fuente'),array('class' => 'medium')) . "</div>";
-            echo "<div class=fieldadd>" . $this->Form->input('FK_fileserver', array('label' => 'Servidor')) . "</div>";
+            echo "<div class=fieldadd>" . $this->Form->input('FK_fileserver', array('label' => 'Servidor','options' => $fileservers)) . "</div>";
             echo $this->Form->submit('Actualizar grabación', array('class' => 'btn'));
             ?>
 

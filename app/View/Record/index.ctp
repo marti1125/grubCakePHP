@@ -29,7 +29,7 @@
                             <td><?php echo $data['Record']['dirSource']; ?></td>
                             <td><?php echo $data['Record']['indexed']; ?></td>
                             <td><?php echo $data['Record']['dateFileSource']; ?></td>
-                            <td><?php echo $data['Record']['FK_fileserver']; ?></td>
+                            <td><?php echo $data['FileServer']['hostName']; ?></td>
                             <td><?php echo $this->Html->link('Actualizar', array('action' => 'edit', $data['Record']['PK_record'])); ?>
                                 <?php
                                 echo $this->Form->postLink('Eliminar', array('action' => 'delete', $data['Record']['PK_record']), array('confirm' => '¿Esta seguro?'));
