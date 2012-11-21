@@ -3,20 +3,31 @@
 class RecordController extends AppController {
 
     public $helpers = array('Html', 'Form');
+    
+    public $paginate = array(
+        'limit' => 2,
+        'order' => array(
+            'Record.fileSource' => 'asc'
+        )
+    );
 
     public function index() {
 
-        $this->layout = 'home';
-
-        $this->Record->recursive = 1;
+        $this->layout = 'home';      
         
+        $data = $this->paginate('Record');
+        
+        $this->set('record', $data);
+
+        /*$this->Record->recursive = 1;  
+
         $records = $this->Record->find('all');
         
-        $this->set('record', $records);
-
-        //$this->set('record', $this->Record->find('all'));
+        $this->set('record', $records);*/
     }
-
+    
+    //$this->set('record', $this->Record->find('all'));
+    
     public function add() {
 
         $this->layout = 'home';
@@ -38,16 +49,25 @@ class RecordController extends AppController {
         }
     }
 
+    public function view($id = null) {
+
+        $this->layout = 'home';
+
+        $this->Record->id = $id;
+
+        $this->set('record', $this->Record->read());
+    }
+
     public function edit($PK_record = null) {
 
-        $this->layout = 'home';       
-        
+        $this->layout = 'home';
+
         $this->Record->id = $PK_record;
-        
+
         $fileservers = $this->Record->FileServer->find('list');
 
         $this->set('fileservers', $fileservers);
-        
+
         if ($this->request->is('get')) {
             $this->request->data = $this->Record->read();
         } else {

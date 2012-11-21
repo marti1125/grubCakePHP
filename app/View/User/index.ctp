@@ -34,6 +34,7 @@
                     <?php unset($users); ?>
                 </tbody>
             </table>
+            
         </div>
     </div>
 </div>

@@ -33,12 +33,15 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
         echo $this->Html->css('custom');
         echo $this->Html->css('plugin');
         echo $this->Html->css('screen');
+        echo $this->Html->css('skin/blue.monday/jplayer.blue.monday');
         echo $this->Html->css('app');
 
         echo $this->Html->script('jquery.min');
         echo $this->Html->script('plugin');
         echo $this->Html->script('slate');
         echo $this->Html->script('slate.portlet');
+        echo $this->Html->script('jquery.jplayer.min');
+        echo $this->Html->script('app');        
 
         echo $this->fetch('meta');
         echo $this->fetch('css');

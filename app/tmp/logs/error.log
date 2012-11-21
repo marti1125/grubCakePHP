@@ -4732,3 +4732,520 @@
 #0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
 #2 {main}
+2012-11-19 17:33:37 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-19 17:33:57 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-19 17:34:16 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-19 18:48:11 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-19 19:21:33 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: RecordController->delete('1')
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#6 {main}
+2012-11-19 19:22:15 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: RecordController->delete('1')
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#6 {main}
+2012-11-19 20:24:17 Error: Fatal Error (1): Cannot unset string offsets in [C:\wamp\www\cakephpsqlserv\lib\Cake\View\Helper\FormHelper.php, line 2596]
+2012-11-19 20:24:17 Error: [FatalErrorException] Cannot unset string offsets
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'C:\wamp\www\cak...', 2596)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'C:\wamp\www\cak...', 2596, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'C:\wamp\www\cak...', 2596, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 20:24:39 Error: Fatal Error (1): Cannot unset string offsets in [C:\wamp\www\cakephpsqlserv\lib\Cake\View\Helper\FormHelper.php, line 2596]
+2012-11-19 20:24:39 Error: [FatalErrorException] Cannot unset string offsets
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'C:\wamp\www\cak...', 2596)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'C:\wamp\www\cak...', 2596, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'C:\wamp\www\cak...', 2596, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 20:24:55 Error: Fatal Error (1): Cannot unset string offsets in [C:\wamp\www\cakephpsqlserv\lib\Cake\View\Helper\FormHelper.php, line 2596]
+2012-11-19 20:24:55 Error: [FatalErrorException] Cannot unset string offsets
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'C:\wamp\www\cak...', 2596)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'C:\wamp\www\cak...', 2596, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'C:\wamp\www\cak...', 2596, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 20:27:01 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting ',' or ';' in [C:\wamp\www\cakephpsqlserv\app\View\Record\view.ctp, line 9]
+2012-11-19 20:27:01 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting ',' or ';'
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 9, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 9, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 20:27:07 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in [C:\wamp\www\cakephpsqlserv\app\View\Record\view.ctp, line 11]
+2012-11-19 20:27:07 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';'
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 11, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 11, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 20:27:24 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in [C:\wamp\www\cakephpsqlserv\app\View\Record\view.ctp, line 9]
+2012-11-19 20:27:24 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';'
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 9, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 9, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 20:27:38 Error: [PDOException] SQLSTATE[22018]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Conversion failed when converting the varchar value 'controls' to data type int.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 1 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 1 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 1 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 1 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(1516): Model->find('first', Array)
+#8 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(47): Model->read()
+#9 [internal function]: RecordController->view('controls')
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#15 {main}
+2012-11-19 20:27:52 Error: [PDOException] SQLSTATE[22018]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Conversion failed when converting the varchar value 'controls' to data type int.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 1 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 1 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 1 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 1 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(1516): Model->find('first', Array)
+#8 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(47): Model->read()
+#9 [internal function]: RecordController->view('controls')
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#15 {main}
+2012-11-19 20:29:58 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in [C:\wamp\www\cakephpsqlserv\app\View\Record\view.ctp, line 9]
+2012-11-19 20:29:58 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';'
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 9, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 9, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 20:38:49 Error: [MissingActionException] Action RecordController::record() could not be found.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#4 {main}
+2012-11-19 21:07:12 Error: [PDOException] SQLSTATE[22018]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Conversion failed when converting the varchar value 'webroot.ds.files' to data type int.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 1 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 1 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 1 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 1 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(1516): Model->find('first', Array)
+#8 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(47): Model->read()
+#9 [internal function]: RecordController->view('webroot.ds.file...', 'record', 'audio1.mp3')
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#15 {main}
+2012-11-19 21:07:39 Error: [PDOException] SQLSTATE[22018]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Conversion failed when converting the varchar value 'webrootdsfiles' to data type int.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 1 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 1 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 1 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 1 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(1516): Model->find('first', Array)
+#8 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(47): Model->read()
+#9 [internal function]: RecordController->view('webrootdsfiles', 'record', 'audio1.mp3'')
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#15 {main}
+2012-11-19 21:09:25 Error: [PDOException] SQLSTATE[22018]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Conversion failed when converting the varchar value 'webrootdsfiles' to data type int.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 1 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 1 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 1 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 1 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(1516): Model->find('first', Array)
+#8 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(47): Model->read()
+#9 [internal function]: RecordController->view('webrootdsfiles', 'record', 'audio1.mp3'')
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#15 {main}
+2012-11-19 21:12:22 Error: [PDOException] SQLSTATE[22018]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Conversion failed when converting the varchar value 'webroot' to data type int.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 1 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 1 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 1 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 1 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(1516): Model->find('first', Array)
+#8 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(47): Model->read()
+#9 [internal function]: RecordController->view('webroot', 'files', 'record', 'audio1.mp3'')
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#15 {main}
+2012-11-19 21:13:14 Error: [PDOException] SQLSTATE[22018]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Conversion failed when converting the varchar value 'webroot' to data type int.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 1 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 1 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 1 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 1 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(1516): Model->find('first', Array)
+#8 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(47): Model->read()
+#9 [internal function]: RecordController->view('webroot', 'files', 'record', 'audio1.mp3'')
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#15 {main}
+2012-11-19 21:17:42 Error: Fatal Error (4): syntax error, unexpected T_ECHO in [C:\wamp\www\cakephpsqlserv\app\View\Record\view.ctp, line 9]
+2012-11-19 21:17:42 Error: [FatalErrorException] syntax error, unexpected T_ECHO
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 9, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 9, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 21:19:47 Error: Fatal Error (4): syntax error, unexpected T_ECHO in [C:\wamp\www\cakephpsqlserv\app\View\Record\view.ctp, line 9]
+2012-11-19 21:19:47 Error: [FatalErrorException] syntax error, unexpected T_ECHO
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 9, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 9, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 21:20:04 Error: Fatal Error (4): syntax error, unexpected T_ECHO in [C:\wamp\www\cakephpsqlserv\app\View\Record\view.ctp, line 9]
+2012-11-19 21:20:04 Error: [FatalErrorException] syntax error, unexpected T_ECHO
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 9, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 9, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 21:20:09 Error: Fatal Error (4): syntax error, unexpected T_ECHO in [C:\wamp\www\cakephpsqlserv\app\View\Record\view.ctp, line 9]
+2012-11-19 21:20:09 Error: [FatalErrorException] syntax error, unexpected T_ECHO
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 9, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 9, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 21:20:11 Error: Fatal Error (4): syntax error, unexpected T_ECHO in [C:\wamp\www\cakephpsqlserv\app\View\Record\view.ctp, line 9]
+2012-11-19 21:20:11 Error: [FatalErrorException] syntax error, unexpected T_ECHO
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 9, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 9, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 21:20:33 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-19 21:23:46 Error: [MissingHelperException] Helper class MediaHelper could not be found.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(862): HelperCollection->load('Media', Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(469): View->loadHelpers()
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#7 {main}
+2012-11-19 21:37:34 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-19 21:52:07 Error: [MissingActionException] Action HomeController::images() could not be found.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#4 {main}
+2012-11-19 22:01:43 Error: [PDOException] SQLSTATE[08S01]: [Microsoft][SQL Server Native Client 10.0]TCP Provider: Se agot¢ el tiempo de espera del sem foro.
+
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(13): Model->find('all')
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-20 15:24:31 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-20 17:56:57 Error: [PDOException] SQLSTATE[22018]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Conversion failed when converting the varchar value '+ <' to data type int.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 1 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 1 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 1 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 1 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(1516): Model->find('first', Array)
+#8 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(47): Model->read()
+#9 [internal function]: RecordController->view('+ <')
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#15 {main}
+2012-11-20 17:57:08 Error: [PDOException] SQLSTATE[22018]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Conversion failed when converting the varchar value '+ <' to data type int.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 1 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 1 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 1 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 1 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(1516): Model->find('first', Array)
+#8 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(47): Model->read()
+#9 [internal function]: RecordController->view('+ <')
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#15 {main}
+2012-11-20 18:01:52 Error: [PDOException] SQLSTATE[22018]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Conversion failed when converting the varchar value '<' to data type int.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 1 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 1 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 1 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 1 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(1516): Model->find('first', Array)
+#8 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(47): Model->read()
+#9 [internal function]: RecordController->view('<')
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#15 {main}
+2012-11-20 18:05:56 Error: [PDOException] SQLSTATE[22018]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Conversion failed when converting the varchar value 'audio1.ogg' to data type int.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 1 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 1 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 1 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 1 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(1516): Model->find('first', Array)
+#8 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(47): Model->read()
+#9 [internal function]: RecordController->view('audio1.ogg')
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#15 {main}
+2012-11-20 18:05:59 Error: [PDOException] SQLSTATE[22018]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Conversion failed when converting the varchar value 'audio1.ogg' to data type int.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 1 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 1 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 1 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 1 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(1516): Model->find('first', Array)
+#8 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(47): Model->read()
+#9 [internal function]: RecordController->view('audio1.ogg')
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#15 {main}
+2012-11-20 18:06:43 Error: [MissingControllerException] Controller class Audio1.oggController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-20 18:07:08 Error: [MissingControllerException] Controller class WebrootController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-20 21:46:39 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-20 22:39:15 Error: Fatal Error (1): Call to a member function prev() on a non-object in [C:\wamp\www\cakephpsqlserv\app\View\Record\index.ctp, line 46]
+2012-11-20 22:39:15 Error: [FatalErrorException] Call to a member function prev() on a non-object
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 46)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 46, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\cak...', 46, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-20 22:41:15 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'Record'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 20 ...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 20 ...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 20 ...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 20 ...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(1081): PaginatorComponent->paginate(Array, Array, Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(15): Controller->paginate(Array)
+#10 [internal function]: RecordController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-20 22:41:43 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'Record'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 20 ...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 20 ...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 20 ...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 20 ...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(1081): PaginatorComponent->paginate(Array, Array, Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(15): Controller->paginate(Array)
+#10 [internal function]: RecordController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-20 22:42:10 Error: [PDOException] SQLSTATE[08S01]: [Microsoft][SQL Server Native Client 10.0]TCP Provider: Se agot¢ el tiempo de espera del sem foro.
+
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(15): Model->find('all')
+#8 [internal function]: RecordController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-20 22:42:11 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-20 22:42:15 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'Record'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 20 ...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 20 ...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 20 ...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 20 ...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(1081): PaginatorComponent->paginate(Array, Array, Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(15): Controller->paginate(Array)
+#10 [internal function]: RecordController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-20 22:42:52 Error: [MissingModelException] select * from records
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(1081): PaginatorComponent->paginate('select * from r...', Array, Array)
+#1 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(15): Controller->paginate('select * from r...')
+#2 [internal function]: RecordController->index()
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#8 {main}
+2012-11-20 22:49:31 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'limit'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 20 ...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 20 ...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 20 ...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 20 ...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(1081): PaginatorComponent->paginate('Record', Array, Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(19): Controller->paginate('Record', Array)
+#10 [internal function]: RecordController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-21 17:47:04 Error: [MissingControllerException] Controller class CakephpsqlservController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-21 17:47:50 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-21 17:47:50 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}

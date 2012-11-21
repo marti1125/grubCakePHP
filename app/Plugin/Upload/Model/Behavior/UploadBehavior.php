@@ -24,7 +24,8 @@ class UploadBehavior extends ModelBehavior {
 	public $defaults = array(
 		'rootDir'			=> null,
 		'pathMethod'		=> 'primaryKey',
-		'path'				=> '{ROOT}webroot{DS}files{DS}{model}{DS}{field}{DS}',
+            //{model}{DS}{field}{DS}
+		'path'				=> '{ROOT}webroot{DS}files{DS}',
 		'fields'			=> array('dir' => 'dir', 'type' => 'type', 'size' => 'size'),
 		'mimetypes'			=> array(),
 		'extensions'		=> array(),
