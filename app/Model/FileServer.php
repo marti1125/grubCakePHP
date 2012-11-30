@@ -11,8 +11,11 @@ class FileServer extends AppModel {
     public $hasMany = array(
         'Record' => array (
             'foreignKey'    => 'FK_fileserver'
+        ),
+        'Audio' => array (
+            'foreignKey'    => 'FK_fileserver'
         )
-    );
+    );  
     
 }
 

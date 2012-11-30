@@ -16,7 +16,8 @@
             echo $this->Form->input('userId', array('type' => 'hidden'));
             echo $this->Form->submit('Actualizar Usuario', array('class' => 'btn'));
             ?>
-
+            <?php echo $this->Html->link('Cancelar', array('controller' => 'users', 'action' => 'index'), array('class' => 'btn')); ?>
+            
         </div>
 
     </div>

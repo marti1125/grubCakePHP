@@ -24,6 +24,8 @@ class RecordController extends AppController {
         $records = $this->Record->find('all');
         
         $this->set('record', $records);*/
+        
+        //pr($this->Record->find('all'));
     }
     
     //$this->set('record', $this->Record->find('all'));

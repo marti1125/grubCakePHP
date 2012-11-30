@@ -24,9 +24,13 @@
                             <td><?php echo $data['User']['username']; ?></td>
                             <td><?php echo $data['User']['password']; ?></td>
                             <td><?php echo $data['User']['role']; ?></td>
-                            <td><?php echo $this->Html->link('Actualizar', array('action' => 'edit', $data['User']['userId'])); ?>
+                            <td><?php 
+                                echo $this->Html->image('update.png', array('url' => array('controller' => 'users', 'action' => 'edit', $data['User']['userId'])));
+                                ?>
                                 <?php
-                                echo $this->Form->postLink('Eliminar', array('action' => 'delete', $data['User']['userId']), array('confirm' => '¿Esta seguro?'));
+                                echo "&nbsp;&nbsp;&nbsp;".$this->Form->postLink($this->Html->image('delete.png', array('alt' => 'delete')), 
+                                              array('action' => 'delete', $data['User']['userId']), 
+                                              array('confirm' => '¿Esta seguro?', 'escape' => false));                              
                                 ?>
                             </td>
                         </tr>

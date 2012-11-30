@@ -89,6 +89,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
                                             <li><?php echo $this->Html->link('Usuarios', array('controller' => 'users', 'action' => 'index')); ?></li>
                                             <li><?php echo $this->Html->link('Grabaciones', array('controller' => 'record', 'action' => 'index')); ?></li>
                                             <li><?php echo $this->Html->link('Agentes', array('controller' => 'agent', 'action' => 'index')); ?></li>
+                                            <li><?php echo $this->Html->link('File Server', array('controller' => 'fileserver', 'action' => 'index')); ?></li>
                                             <li><?php echo $this->Html->link('Audios', array('controller' => 'audio', 'action' => 'index')); ?></li>
                                             <li><?php echo $this->Html->link('CallCenters', array('controller' => 'callcenter', 'action' => 'index')); ?></li>                                            
                                             <li><?php echo $this->Html->link('Compañias', array('controller' => 'company', 'action' => 'index')); ?></li>

@@ -2,7 +2,10 @@
     <div class="portlet x12">
         <div class="portlet-header">
             <h4>Compañias</h4>
-        </div>	
+        </div>
+    <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $this->Html->link('Agregar Compañia', array('controller' => 'company', 'action' => 'add'), array('class' => 'btn')); ?>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $this->Session->flash(); ?>
     <div class="portlet-content">
         <table cellpadding="0" cellspacing="0" border="0" class="display" rel="datatable" id="example">
                 <thead>
@@ -17,6 +20,7 @@
                         <th>Pais</th>
                         <th>Logo</th>
                         <th>Web</th>
+                        <th>Acciones</th>
                     </tr>	
                 </thead>
                 <tbody>
@@ -32,6 +36,16 @@
                         <td><?php echo $data['Company']['country']; ?></td>
                         <td><?php echo $data['Company']['fileLogo']; ?></td>
                         <td><?php echo $data['Company']['url']; ?></td>
+                        <td>
+                        <?php 
+                        echo $this->Html->image('update.png', array('url' => array('controller' => 'company', 'action' => 'edit', $data['Company']['PK_company'])));
+                        ?>
+                        <?php
+                        echo "&nbsp;&nbsp;&nbsp;".$this->Form->postLink($this->Html->image('delete.png', array('alt' => 'delete')), 
+                                      array('action' => 'delete', $data['Company']['PK_company']), 
+                                      array('confirm' => '¿Esta seguro?', 'escape' => false));                              
+                        ?>
+                        </td>
                 </tr>
                 <?php endforeach; ?>
                 <?php unset($company); ?>

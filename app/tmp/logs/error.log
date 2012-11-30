@@ -5249,3 +5249,954 @@
 #0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
 #2 {main}
+2012-11-21 23:59:36 Error: [MissingControllerException] Controller class CakephpsqlservController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-22 00:00:02 Error: [MissingControllerException] Controller class CakephpsqlservController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-22 00:00:21 Error: [MissingControllerException] Controller class CakephpsqlservController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-22 00:00:35 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-22 00:08:09 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-27 16:08:42 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-27 16:14:20 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-27 16:29:54 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-27 16:30:06 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-27 16:57:33 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-27 17:59:34 Error: Fatal Error (1): Cannot unset string offsets in [C:\wamp\www\cakephpsqlserv\lib\Cake\View\Helper\FormHelper.php, line 2596]
+2012-11-27 17:59:34 Error: [FatalErrorException] Cannot unset string offsets
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'C:\wamp\www\cak...', 2596)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'C:\wamp\www\cak...', 2596, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'C:\wamp\www\cak...', 2596, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-27 18:19:05 Error: Fatal Error (1): Call to a member function delete() on a non-object in [C:\wamp\www\cakephpsqlserv\app\Controller\AgentController.php, line 55]
+2012-11-27 18:19:05 Error: [FatalErrorException] Call to a member function delete() on a non-object
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 55, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\cak...', 55, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-27 18:20:21 Error: Fatal Error (1): Call to a member function delete() on a non-object in [C:\wamp\www\cakephpsqlserv\app\Controller\AgentController.php, line 55]
+2012-11-27 18:20:21 Error: [FatalErrorException] Call to a member function delete() on a non-object
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 55, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\cak...', 55, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-27 18:31:39 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-27 19:08:23 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\cakephpsqlserv\app\Controller\AgentController.php, line 35]
+2012-11-27 19:08:23 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 35, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\cak...', 35, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-27 19:42:49 Error: Fatal Error (1): Call to a member function read() on a non-object in [C:\wamp\www\cakephpsqlserv\app\Controller\AgentController.php, line 36]
+2012-11-27 19:42:49 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 36, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\cak...', 36, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-27 20:02:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-27 20:20:37 Error: [MissingHelperException] Helper class AgentHelper could not be found.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('Agent')
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(813): HelperCollection->__isset('Agent')
+#2 C:\wamp\www\cakephpsqlserv\app\View\Agent\add.ctp(19): View->__get('Agent')
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(921): include('C:\wamp\www\cak...')
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(884): View->_evaluate('C:\wamp\www\cak...', Array)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(476): View->_render('C:\wamp\www\cak...')
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AgentController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#11 {main}
+2012-11-27 20:21:02 Error: [MissingHelperException] Helper class AgentHelper could not be found.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('Agent')
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(813): HelperCollection->__isset('Agent')
+#2 C:\wamp\www\cakephpsqlserv\app\View\Agent\add.ctp(19): View->__get('Agent')
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(921): include('C:\wamp\www\cak...')
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(884): View->_evaluate('C:\wamp\www\cak...', Array)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(476): View->_render('C:\wamp\www\cak...')
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AgentController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#11 {main}
+2012-11-27 20:22:35 Error: [MissingHelperException] Helper class AgentHelper could not be found.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('Agent')
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(813): HelperCollection->__isset('Agent')
+#2 C:\wamp\www\cakephpsqlserv\app\View\Agent\add.ctp(19): View->__get('Agent')
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(921): include('C:\wamp\www\cak...')
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(884): View->_evaluate('C:\wamp\www\cak...', Array)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(476): View->_render('C:\wamp\www\cak...')
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AgentController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#11 {main}
+2012-11-27 20:24:05 Error: Fatal Error (1): Class 'DboSource' not found in [C:\wamp\www\cakephpsqlserv\app\Controller\AgentController.php, line 18]
+2012-11-27 20:24:05 Error: [FatalErrorException] Class 'DboSource' not found
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 18, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 18, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-27 20:24:16 Error: Fatal Error (1): Class 'DboSource' not found in [C:\wamp\www\cakephpsqlserv\app\Controller\AgentController.php, line 18]
+2012-11-27 20:24:16 Error: [FatalErrorException] Class 'DboSource' not found
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 18, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 18, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-27 20:24:55 Error: Fatal Error (1): Class 'DboSource' not found in [C:\wamp\www\cakephpsqlserv\app\Controller\AgentController.php, line 18]
+2012-11-27 20:24:55 Error: [FatalErrorException] Class 'DboSource' not found
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 18, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 18, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-27 20:27:01 Error: Fatal Error (1): Class 'DboSource' not found in [C:\wamp\www\cakephpsqlserv\app\Controller\AgentController.php, line 18]
+2012-11-27 20:27:01 Error: [FatalErrorException] Class 'DboSource' not found
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 18, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 18, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-27 20:27:02 Error: Fatal Error (1): Class 'DboSource' not found in [C:\wamp\www\cakephpsqlserv\app\Controller\AgentController.php, line 18]
+2012-11-27 20:27:02 Error: [FatalErrorException] Class 'DboSource' not found
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 18, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 18, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-27 20:27:03 Error: Fatal Error (1): Class 'DboSource' not found in [C:\wamp\www\cakephpsqlserv\app\Controller\AgentController.php, line 18]
+2012-11-27 20:27:03 Error: [FatalErrorException] Class 'DboSource' not found
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 18, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 18, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-27 20:27:37 Error: Fatal Error (1): Class 'DboSource' not found in [C:\wamp\www\cakephpsqlserv\app\Controller\AgentController.php, line 21]
+2012-11-27 20:27:37 Error: [FatalErrorException] Class 'DboSource' not found
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 21, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 21, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-27 20:27:40 Error: Fatal Error (1): Class 'DboSource' not found in [C:\wamp\www\cakephpsqlserv\app\Controller\AgentController.php, line 21]
+2012-11-27 20:27:40 Error: [FatalErrorException] Class 'DboSource' not found
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 21, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 21, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-27 20:28:30 Error: Fatal Error (1): Class 'DboSource' not found in [C:\wamp\www\cakephpsqlserv\app\Controller\AgentController.php, line 21]
+2012-11-27 20:28:30 Error: [FatalErrorException] Class 'DboSource' not found
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 21, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 21, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-27 20:28:34 Error: Fatal Error (1): Class 'DboSource' not found in [C:\wamp\www\cakephpsqlserv\app\Controller\AgentController.php, line 21]
+2012-11-27 20:28:34 Error: [FatalErrorException] Class 'DboSource' not found
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 21, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 21, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-27 20:31:42 Error: Fatal Error (1): Class 'DboSource' not found in [C:\wamp\www\cakephpsqlserv\app\Controller\AgentController.php, line 21]
+2012-11-27 20:31:42 Error: [FatalErrorException] Class 'DboSource' not found
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 21, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 21, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-27 20:31:52 Error: Fatal Error (1): Class 'DboSource' not found in [C:\wamp\www\cakephpsqlserv\app\Controller\AgentController.php, line 21]
+2012-11-27 20:31:52 Error: [FatalErrorException] Class 'DboSource' not found
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 21, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'DboSourc...', 'C:\wamp\www\cak...', 21, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-27 20:49:10 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-27 20:56:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-27 21:23:58 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'PK_record'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Audio]...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Audio]...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Audio]...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Audio]...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Audio), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Audio), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(11): Model->find('all')
+#8 [internal function]: AudioController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-27 21:37:30 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'record_id'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Audio]...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Audio]...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Audio]...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Audio]...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Audio), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Audio), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(13): Model->find('all')
+#8 [internal function]: AudioController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-27 22:06:57 Error: [MissingTableException] Table Audio_Record for model AudioRecord was not found in datasource default.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(3179): Model->setSource('Audio_Record')
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(847): Model->schema()
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(872): Model->__isset('AudioRecord')
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(3247): Model->__get('AudioRecord')
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1596): Model->joinModel('AudioRecord', Array)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1071): DboSource->generateAssociationQuery(Object(Audio), Object(Record), 'hasAndBelongsTo...', 'Record', Array, Array, false, NULL)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Audio), Array, NULL)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Audio), Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(17): Model->find('all')
+#10 [internal function]: AudioController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-28 17:30:32 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-28 17:51:47 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'FK_record'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1340): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1202): DboSource->fetchAssociated(Object(Audio), 'SELECT  [Record...', Array)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1115): DboSource->queryAssociation(Object(Audio), Object(Record), 'hasMany', 'Record', Array, Array, true, Array, 0, Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Audio), Array, NULL)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Audio), Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(23): Model->find('all')
+#10 [internal function]: AudioController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-28 17:55:49 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'FK_record'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Record...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Record...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Record...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1340): DboSource->fetchAll('SELECT  [Record...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1202): DboSource->fetchAssociated(Object(Audio), 'SELECT  [Record...', Array)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1115): DboSource->queryAssociation(Object(Audio), Object(Record), 'hasMany', 'Record', Array, Array, true, Array, 0, Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Audio), Array, NULL)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Audio), Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(23): Model->find('all')
+#10 [internal function]: AudioController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-28 18:00:12 Error: [MissingTableException] Table Audio_Record for model AudioRecord was not found in datasource default.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(3179): Model->setSource('Audio_Record')
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(847): Model->schema()
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(872): Model->__isset('AudioRecord')
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(3247): Model->__get('AudioRecord')
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1596): Model->joinModel('AudioRecord', Array)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1071): DboSource->generateAssociationQuery(Object(Audio), Object(Record), 'hasAndBelongsTo...', 'Record', Array, Array, false, NULL)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Audio), Array, NULL)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Audio), Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(23): Model->find('all')
+#10 [internal function]: AudioController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-28 18:11:26 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'PK_record'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  [Audio]...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  [Audio]...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  [Audio]...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  [Audio]...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Audio), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Audio), Array)
+#7 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(23): Model->find('all')
+#8 [internal function]: AudioController->index()
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#14 {main}
+2012-11-28 18:17:59 Error: Fatal Error (1): Cannot use string offset as an array in [C:\wamp\www\cakephpsqlserv\app\View\Audio\index.ctp, line 23]
+2012-11-28 18:17:59 Error: [FatalErrorException] Cannot use string offset as an array
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:18:09 Error: Fatal Error (1): Cannot use string offset as an array in [C:\wamp\www\cakephpsqlserv\app\View\Audio\index.ctp, line 23]
+2012-11-28 18:18:09 Error: [FatalErrorException] Cannot use string offset as an array
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:18:27 Error: Fatal Error (1): Cannot use string offset as an array in [C:\wamp\www\cakephpsqlserv\app\View\Audio\index.ctp, line 23]
+2012-11-28 18:18:27 Error: [FatalErrorException] Cannot use string offset as an array
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:18:39 Error: Fatal Error (1): Cannot use string offset as an array in [C:\wamp\www\cakephpsqlserv\app\View\Audio\index.ctp, line 23]
+2012-11-28 18:18:39 Error: [FatalErrorException] Cannot use string offset as an array
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:19:02 Error: Fatal Error (1): Cannot use string offset as an array in [C:\wamp\www\cakephpsqlserv\app\View\Audio\index.ctp, line 23]
+2012-11-28 18:19:02 Error: [FatalErrorException] Cannot use string offset as an array
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:19:13 Error: Fatal Error (1): Cannot use string offset as an array in [C:\wamp\www\cakephpsqlserv\app\View\Audio\index.ctp, line 23]
+2012-11-28 18:19:13 Error: [FatalErrorException] Cannot use string offset as an array
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:19:15 Error: Fatal Error (1): Cannot use string offset as an array in [C:\wamp\www\cakephpsqlserv\app\View\Audio\index.ctp, line 23]
+2012-11-28 18:19:15 Error: [FatalErrorException] Cannot use string offset as an array
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:19:16 Error: Fatal Error (1): Cannot use string offset as an array in [C:\wamp\www\cakephpsqlserv\app\View\Audio\index.ctp, line 23]
+2012-11-28 18:19:16 Error: [FatalErrorException] Cannot use string offset as an array
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:21:17 Error: Fatal Error (1): Cannot use string offset as an array in [C:\wamp\www\cakephpsqlserv\app\View\Audio\index.ctp, line 23]
+2012-11-28 18:21:17 Error: [FatalErrorException] Cannot use string offset as an array
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use stri...', 'C:\wamp\www\cak...', 23, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:56:45 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "Record.fileSource" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 2 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 2 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 2 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 2 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Audio), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Audio), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(1081): PaginatorComponent->paginate('Audio', Array, Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(17): Controller->paginate('Audio')
+#10 [internal function]: AudioController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-28 18:57:38 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "Record.fileSource" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 2 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 2 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 2 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 2 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Audio), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Audio), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(1081): PaginatorComponent->paginate('Audio', Array, Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(17): Controller->paginate('Audio')
+#10 [internal function]: AudioController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-28 18:57:40 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "Record.fileSource" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 2 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 2 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 2 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 2 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Audio), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Audio), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(1081): PaginatorComponent->paginate('Audio', Array, Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(17): Controller->paginate('Audio')
+#10 [internal function]: AudioController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-28 18:57:40 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "Record.fileSource" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 2 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 2 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 2 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 2 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Audio), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Audio), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(1081): PaginatorComponent->paginate('Audio', Array, Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(17): Controller->paginate('Audio')
+#10 [internal function]: AudioController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-28 18:57:41 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "Record.fileSource" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 2 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 2 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 2 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 2 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Audio), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Audio), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(1081): PaginatorComponent->paginate('Audio', Array, Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(17): Controller->paginate('Audio')
+#10 [internal function]: AudioController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-28 18:57:55 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "Record.fileSource" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 2 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 2 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 2 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 2 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Audio), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Audio), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(1081): PaginatorComponent->paginate('Audio', Array, Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(17): Controller->paginate('Audio')
+#10 [internal function]: AudioController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-28 18:57:56 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "Record.fileSource" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 2 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 2 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 2 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 2 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Audio), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Audio), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(1081): PaginatorComponent->paginate('Audio', Array, Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(17): Controller->paginate('Audio')
+#10 [internal function]: AudioController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-28 18:57:56 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "Record.fileSource" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 2 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 2 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 2 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 2 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Audio), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Audio), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(1081): PaginatorComponent->paginate('Audio', Array, Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(17): Controller->paginate('Audio')
+#10 [internal function]: AudioController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-28 18:57:57 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "Record.fileSource" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 2 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 2 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 2 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 2 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Audio), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Audio), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(1081): PaginatorComponent->paginate('Audio', Array, Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(17): Controller->paginate('Audio')
+#10 [internal function]: AudioController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-28 18:57:57 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "Record.fileSource" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 2 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 2 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 2 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 2 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Audio), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Audio), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(1081): PaginatorComponent->paginate('Audio', Array, Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(17): Controller->paginate('Audio')
+#10 [internal function]: AudioController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-28 18:57:58 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "Record.fileSource" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 2 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 2 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 2 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 2 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Audio), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Audio), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(1081): PaginatorComponent->paginate('Audio', Array, Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(17): Controller->paginate('Audio')
+#10 [internal function]: AudioController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-28 18:58:04 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "Record.fileSource" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 2 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 2 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 2 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 2 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Audio), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Audio), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(1081): PaginatorComponent->paginate('Audio', Array, Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(17): Controller->paginate('Audio')
+#10 [internal function]: AudioController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-28 18:58:08 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "Record.fileSource" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 2 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 2 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 2 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 2 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Audio), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Audio), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(1081): PaginatorComponent->paginate('Audio', Array, Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(17): Controller->paginate('Audio')
+#10 [internal function]: AudioController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-28 20:35:39 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\CakeSession.php, line 614]
+2012-11-28 20:35:39 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\wamp\www\cak...', 614)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\wamp\www\cak...', 614, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\wamp\www\cak...', 614, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 20:49:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-28 21:13:50 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'FK_audio'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 2 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 2 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 2 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 2 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(1081): PaginatorComponent->paginate('Record', Array, Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(18): Controller->paginate('Record')
+#10 [internal function]: RecordController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-28 21:14:04 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'PK_audio'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 2 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 2 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 2 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 2 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Record), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Record), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(1081): PaginatorComponent->paginate('Record', Array, Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\RecordController.php(18): Controller->paginate('Record')
+#10 [internal function]: RecordController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecordController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-28 21:26:01 Error: [PDOException] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Invalid column name 'recursive'.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 2 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 2 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 2 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 2 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Audio), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Audio), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(1081): PaginatorComponent->paginate('Audio', Array, Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(18): Controller->paginate('Audio', Array)
+#10 [internal function]: AudioController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-28 21:27:39 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "Record.fileSource" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 2 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 2 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 2 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 2 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Audio), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Audio), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(1081): PaginatorComponent->paginate('Audio', Array, Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(20): Controller->paginate('Audio')
+#10 [internal function]: AudioController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-28 21:35:07 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "Record.fileSource" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 2 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 2 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 2 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 2 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Audio), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Audio), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(1081): PaginatorComponent->paginate('Audio', Array, Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(20): Controller->paginate('Audio')
+#10 [internal function]: AudioController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-28 21:36:28 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "Record.fileSource" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 2 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 2 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 2 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 2 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Audio), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Audio), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(1081): PaginatorComponent->paginate('Audio', Array, Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(20): Controller->paginate('Audio')
+#10 [internal function]: AudioController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-28 21:36:29 Error: [PDOException] SQLSTATE[42000]: [Microsoft][SQL Server Native Client 10.0][SQL Server]The multi-part identifier "Record.fileSource" could not be bound.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(736): DboSource->_execute('SELECT  TOP 2 [...', Array, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('SELECT  TOP 2 [...', Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT  TOP 2 [...', Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT  TOP 2 [...', false)
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(581): DboSource->read(Object(Audio), Array, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(2630): Sqlserver->read(Object(Audio), Array)
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(1081): PaginatorComponent->paginate('Audio', Array, Array)
+#9 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(20): Controller->paginate('Audio')
+#10 [internal function]: AudioController->index()
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#16 {main}
+2012-11-29 16:08:23 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-29 16:08:23 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-29 16:50:21 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php, line 27]
+2012-11-29 16:50:21 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 27, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\cak...', 27, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 16:54:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-29 17:09:58 Error: [PDOException] SQLSTATE[22018]: [Microsoft][SQL Server Native Client 10.0][SQL Server]Conversion failed when converting the varchar value 'hola.png' to data type int.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(739): PDO->exec('INSERT INTO [Au...')
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(425): Sqlserver->_execute('INSERT INTO [Au...', Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(1007): DboSource->execute('INSERT INTO [Au...')
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php(329): DboSource->create(Object(Audio), Array, Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(1730): Sqlserver->create(Object(Audio), Array, Array)
+#5 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(37): Model->save(Array)
+#6 [internal function]: AudioController->add()
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#12 {main}
+2012-11-29 17:32:44 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php, line 169]
+2012-11-29 17:32:44 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\wamp\www\cak...', 169)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\wamp\www\cak...', 169, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\wamp\www\cak...', 169, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 17:39:41 Error: [MissingConnectionException] Database connection "Sqlserver" is missing, or could not be created.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(261): Sqlserver->connect()
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(3179): Model->setSource('Audio')
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(1389): Model->schema()
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Component\PaginatorComponent.php(354): Model->hasField('fileSource')
+#8 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Component\PaginatorComponent.php(125): PaginatorComponent->validateSort(Object(Audio), Array, Array)
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(1081): PaginatorComponent->paginate('Audio', Array, Array)
+#10 C:\wamp\www\cakephpsqlserv\app\Controller\AudioController.php(18): Controller->paginate('Audio')
+#11 [internal function]: AudioController->index()
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AudioController), Array)
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#14 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AudioController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#17 {main}
+2012-11-29 17:39:55 Error: [MissingConnectionException] Database connection "Sqlserver" is missing, or could not be created.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\DboSource.php(261): Sqlserver->connect()
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(3179): Model->setSource('users')
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\View\Helper\FormHelper.php(438): FormHelper->_introspectModel('User', 'fields')
+#8 C:\wamp\www\cakephpsqlserv\app\View\User\login.ctp(5): FormHelper->create('User')
+#9 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(921): include('C:\wamp\www\cak...')
+#10 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(884): View->_evaluate('C:\wamp\www\cak...', Array)
+#11 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(476): View->_render('C:\wamp\www\cak...')
+#12 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#13 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#17 {main}
+2012-11-29 17:40:38 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-29 20:15:32 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-29 20:15:32 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-29 20:16:41 Error: [MissingActionException] Action FileServerController::add() could not be found.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(FileServerController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#4 {main}
+2012-11-29 21:21:18 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php, line 169]
+2012-11-29 21:21:18 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\wamp\www\cak...', 169)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\wamp\www\cak...', 169, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\wamp\www\cak...', 169, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 21:21:26 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php, line 169]
+2012-11-29 21:21:26 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\wamp\www\cak...', 169)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\wamp\www\cak...', 169, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\wamp\www\cak...', 169, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 21:22:06 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php, line 593]
+2012-11-29 21:22:06 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\wamp\www\cak...', 593)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\wamp\www\cak...', 593, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\wamp\www\cak...', 593, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 21:22:15 Error: [MissingControllerException] Controller class CakephpsqlservController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-29 21:22:55 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\wamp\www\cakephpsqlserv\lib\Cake\Model\Datasource\Database\Sqlserver.php, line 169]
+2012-11-29 21:22:55 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\wamp\www\cak...', 169)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\wamp\www\cak...', 169, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\wamp\www\cak...', 169, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 21:24:31 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-29 21:28:38 Error: [MissingActionException] Action FileServerController::edit() could not be found.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(FileServerController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#4 {main}
+2012-11-30 17:24:50 Error: [MissingControllerException] Controller class CakephpsqlservController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-11-30 17:25:07 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}

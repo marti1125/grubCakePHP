@@ -17,7 +17,8 @@
             echo "<div class=fieldadd>" . $this->Form->input('FK_fileserver', array('label' => 'Servidor','options' => $fileservers)). "</div>";
             echo $this->Form->submit('Guardar grabación', array('class' => 'btn'));
             ?>
-
+            <?php echo $this->Html->link('Cancelar', array('controller' => 'record', 'action' => 'index'), array('class' => 'btn')); ?>
+            
         </div>
 
     </div>

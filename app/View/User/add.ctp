@@ -13,9 +13,9 @@
             echo "<div class=fieldadd>" . $this->Form->input('role', array(
 			'options' => array('admin' => 'admin', 'author' => 'regular')
 		)) . "</div>";            
-            echo $this->Form->submit('Agregar Usuario', array('class' => 'btn'));
+            echo $this->Form->submit('Agregar Usuario', array('class' => 'btn'));            
             ?>
-
+            <?php echo $this->Html->link('Cancelar', array('controller' => 'users', 'action' => 'index'), array('class' => 'btn')); ?>
         </div>
 
     </div>
