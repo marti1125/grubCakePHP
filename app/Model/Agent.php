@@ -6,6 +6,15 @@ class Agent extends AppModel {
     
     public $primaryKey = 'PK_agent';
     
+    public $displayField = 'agentId';
+    
+    public $hasMany = array(
+        'ExtesionNumber' => array (
+            'className' => 'ExtesionNumber',
+            'foreignKey'    => 'FK_agent'           
+        )
+    );
+    
 }
 
 ?>

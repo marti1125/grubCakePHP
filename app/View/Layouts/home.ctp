@@ -93,7 +93,19 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
                                             <li><?php echo $this->Html->link('Audios', array('controller' => 'audio', 'action' => 'index')); ?></li>
                                             <li><?php echo $this->Html->link('CallCenters', array('controller' => 'callcenter', 'action' => 'index')); ?></li>                                            
                                             <li><?php echo $this->Html->link('Compañias', array('controller' => 'company', 'action' => 'index')); ?></li>
+                                            <li><?php echo $this->Html->link('Areas de la Compañia', array('controller' => 'companyarea', 'action' => 'index')); ?></li>
+                                            <li><?php echo $this->Html->link('Número de Extensión', array('controller' => 'extensionnumber', 'action' => 'index')); ?></li>
                                             <li><?php echo $this->Html->link('Speech', array('controller' => 'speech', 'action' => 'index')); ?></li>
+                                            <li><?php echo $this->Html->link('Filtros', array('controller' => 'filterrule', 'action' => 'index')); ?></li>
+                                            <li><?php echo $this->Html->link('Detalles de los Filtros', array('controller' => 'filterruledetail', 'action' => 'index')); ?></li>
+                                            <li><?php echo $this->Html->link('Palabras Clave', array('controller' => 'word', 'action' => 'index')); ?></li>
+                                            <li><?php echo $this->Html->link('Variante de Palabra Clave', array('controller' => 'wordvariant', 'action' => 'index')); ?></li>
+                                            <li><?php echo $this->Html->link('Transcripción', array('controller' => 'transcription', 'action' => 'index')); ?></li>
+                                            <li><?php echo $this->Html->link('Speech Datos', array('controller' => 'speechdata', 'action' => 'index')); ?></li>
+                                            <li><?php echo $this->Html->link('Linea Guia', array('controller' => 'guideline', 'action' => 'index')); ?></li>
+                                            <li><?php echo $this->Html->link('Linea Guia Categorias', array('controller' => 'guidelinecategory', 'action' => 'index')); ?></li>
+                                            <li><?php echo $this->Html->link('Linea Guia Detalles', array('controller' => 'guidelinedetail', 'action' => 'index')); ?></li>
+                                            <li><?php echo $this->Html->link('Servicios', array('controller' => 'service', 'action' => 'index')); ?></li>
                                         </ul>
                                     </div>						
                                 </li> 

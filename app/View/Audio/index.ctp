@@ -30,7 +30,7 @@
                     <td><?php echo $data['Audio']['seconds']; ?></td>
                     <td><?php echo $data['Audio']['status']; ?></td>
                     <td><?php echo $data['Audio']['thumbnail']; ?></td>
-                    <td><?php echo $data['Audio']['FK_record']; ?></td>
+                    <td><?php echo $data['Record']['numCallerid']; ?></td>
                     <td><?php echo $data['FileServer']['hostName']; ?></td> 
                     <td><?php 
                     echo $this->Html->image('update.png', array('url' => array('controller' => 'audio', 'action' => 'edit', $data['Audio']['PK_audio'])));

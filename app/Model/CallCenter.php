@@ -6,6 +6,15 @@ class CallCenter extends AppModel {
     
     var $useTable = 'CallCenter';
     
+    public $displayField = 'callcenter';
+    
+    public $hasMany = array(
+        'ExtesionNumber' => array (
+            'className' => 'ExtesionNumber',
+            'foreignKey'    => 'FK_callcenter'           
+        )
+    );
+    
     public $belongsTo = array(
         'Company' => array(
             'className' => 'Company',

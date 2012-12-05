@@ -7,7 +7,7 @@ class AudioController extends AppController {
     public $paginate = array(
         'limit' => 1,
         'order' => array(
-            'Record.fileSource' => 'asc'
+            'Audio.fileName' => 'asc'
         )
     );
 

@@ -11,6 +11,9 @@ class Company extends AppModel {
     public $hasMany = array(
         'CallCenter' => array(
             'foreignKey' => 'FK_company'
+        ),
+        'CompanyArea' => array(
+            'foreignKey' => 'FK_company'
         )
     );
 

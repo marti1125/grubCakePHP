@@ -6,7 +6,7 @@ class Audio extends AppModel {
     
     public $primaryKey = 'PK_audio';
     
-    //public $actsAs = array('Containable');
+    public $displayField = 'fileName';
     
     public $belongsTo = array(
         'Record' => array(
@@ -16,6 +16,13 @@ class Audio extends AppModel {
         'FileServer' => array(
             'className' => 'FileServer',
             'foreignKey' => 'FK_fileserver'            
+        )
+    );
+    
+    public $hasMany = array(
+        'Transcription' => array (
+            'className' => 'Transcription',
+            'foreignKey'    => 'FK_audio'           
         )
     );
 
