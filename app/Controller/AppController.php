@@ -32,8 +32,11 @@ App::uses('Controller', 'Controller');
  * @link http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
+    
+    //var $components = array('RequestHandler');
 
     public $components = array(
+        //'RequestHandler',
         'Session',
         'Auth' => array(
             'loginRedirect' => array('controller' => 'home', 'action' => 'index'),
@@ -51,6 +54,7 @@ class AppController extends Controller {
         $this->Auth->allow('add', 'logout','index');
         $this->set('logged_in', $this->Auth->loggedIn());
         $this->set('current_user', $this->Auth->user());
+        //$this->RequestHandler->setContent('json', 'text/x-json');
     }
 
 }

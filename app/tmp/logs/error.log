@@ -7114,3 +7114,225 @@
 #0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
 #2 {main}
+2012-12-05 17:37:49 Error: [MissingControllerException] Controller class CakephpsqlservController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-12-05 17:37:57 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-12-05 17:38:09 Error: Fatal Error (1): Call to a member function setContent() on a non-object in [C:\wamp\www\cakephpsqlserv\app\Controller\WordController.php, line 58]
+2012-12-05 17:38:09 Error: [FatalErrorException] Call to a member function setContent() on a non-object
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 58, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\cak...', 58, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 19:53:22 Error: [MissingViewException] View file "C:\wamp\www\cakephpsqlserv\app\View\Word\json.ctp" is missing.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(473): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(WordController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#6 {main}
+2012-12-05 19:54:21 Error: [MissingViewException] View file "C:\wamp\www\cakephpsqlserv\app\View\Word\json.ctp" is missing.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(473): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(WordController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#6 {main}
+2012-12-05 19:54:23 Error: [MissingViewException] View file "C:\wamp\www\cakephpsqlserv\app\View\Word\json.ctp" is missing.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(473): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(WordController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#6 {main}
+2012-12-05 19:58:41 Error: [Exception] String could not be parsed as XML
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Utility\Xml.php(197): SimpleXMLElement->__construct('<?xml version="...')
+#1 C:\wamp\www\cakephpsqlserv\app\View\Word\json.ctp(11): Xml::fromArray(Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(921): include('C:\wamp\www\cak...')
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(884): View->_evaluate('C:\wamp\www\cak...', Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(476): View->_render('C:\wamp\www\cak...')
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(WordController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#10 {main}
+2012-12-05 19:59:08 Error: Fatal Error (1): Class 'JsonView' not found in [C:\wamp\www\cakephpsqlserv\app\View\Word\json.ctp, line 11]
+2012-12-05 19:59:08 Error: [FatalErrorException] Class 'JsonView' not found
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'JsonView...', 'C:\wamp\www\cak...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'JsonView...', 'C:\wamp\www\cak...', 11, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'JsonView...', 'C:\wamp\www\cak...', 11, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 19:59:16 Error: Fatal Error (1): Class 'Json' not found in [C:\wamp\www\cakephpsqlserv\app\View\Word\json.ctp, line 11]
+2012-12-05 19:59:16 Error: [FatalErrorException] Class 'Json' not found
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Json' no...', 'C:\wamp\www\cak...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Json' no...', 'C:\wamp\www\cak...', 11, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Json' no...', 'C:\wamp\www\cak...', 11, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 19:59:18 Error: Fatal Error (1): Class 'Json' not found in [C:\wamp\www\cakephpsqlserv\app\View\Word\json.ctp, line 11]
+2012-12-05 19:59:18 Error: [FatalErrorException] Class 'Json' not found
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Json' no...', 'C:\wamp\www\cak...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Json' no...', 'C:\wamp\www\cak...', 11, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Json' no...', 'C:\wamp\www\cak...', 11, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 20:04:38 Error: Fatal Error (1): Class 'Json' not found in [C:\wamp\www\cakephpsqlserv\app\View\Word\json.ctp, line 11]
+2012-12-05 20:04:38 Error: [FatalErrorException] Class 'Json' not found
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Json' no...', 'C:\wamp\www\cak...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Json' no...', 'C:\wamp\www\cak...', 11, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Json' no...', 'C:\wamp\www\cak...', 11, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 20:05:36 Error: [Exception] String could not be parsed as XML
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Utility\Xml.php(197): SimpleXMLElement->__construct('<?xml version="...')
+#1 C:\wamp\www\cakephpsqlserv\app\View\Word\json.ctp(11): Xml::fromArray(Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(921): include('C:\wamp\www\cak...')
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(884): View->_evaluate('C:\wamp\www\cak...', Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(476): View->_render('C:\wamp\www\cak...')
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(WordController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#10 {main}
+2012-12-05 20:06:43 Error: [Exception] String could not be parsed as XML
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Utility\Xml.php(197): SimpleXMLElement->__construct('<?xml version="...')
+#1 C:\wamp\www\cakephpsqlserv\app\View\Word\json.ctp(11): Xml::fromArray(Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(921): include('C:\wamp\www\cak...')
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(884): View->_evaluate('C:\wamp\www\cak...', Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(476): View->_render('C:\wamp\www\cak...')
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(WordController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#10 {main}
+2012-12-05 20:11:00 Error: [Exception] String could not be parsed as XML
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Utility\Xml.php(197): SimpleXMLElement->__construct('<?xml version="...')
+#1 C:\wamp\www\cakephpsqlserv\app\View\Word\json.ctp(11): Xml::fromArray(Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(921): include('C:\wamp\www\cak...')
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(884): View->_evaluate('C:\wamp\www\cak...', Array)
+#4 C:\wamp\www\cakephpsqlserv\lib\Cake\View\View.php(476): View->_render('C:\wamp\www\cak...')
+#5 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#6 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#7 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(WordController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#10 {main}
+2012-12-05 21:26:36 Error: [MissingViewException] View file "C:\wamp\www\cakephpsqlserv\app\View\Word\json\json.ctp" is missing.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\View\JsonView.php(98): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(956): JsonView->render(NULL, NULL)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(WordController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#6 {main}
+2012-12-05 21:29:35 Error: [MissingViewException] View file "C:\wamp\www\cakephpsqlserv\app\View\Word\json\json.ctp" is missing.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\View\JsonView.php(98): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Controller\Controller.php(956): JsonView->render(NULL, NULL)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(WordController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#6 {main}
+2012-12-05 22:02:03 Error: [MissingActionException] Action WordController::json.json&callback=jQuery18309536834200380006_1354744923568() could not be found.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(WordController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#4 {main}
+2012-12-05 22:02:19 Error: [MissingActionException] Action WordController::json&callback=jQuery18305989458412179686_1354744939421() could not be found.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(WordController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#4 {main}
+2012-12-05 22:06:01 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-12-05 22:06:31 Error: [MissingActionException] Action WordController::json&callback=jQuery183020712630817638222_1354745191099() could not be found.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(WordController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#4 {main}
+2012-12-05 22:09:03 Error: [MissingActionException] Action WordController::json.json&callback=jQuery18305807008164001165_1354745343400() could not be found.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(WordController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#4 {main}
+2012-12-06 17:30:47 Error: [MissingControllerException] Controller class CakephpsqlservController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-12-06 17:30:47 Error: Fatal Error (64): Cannot redeclare AppController::$components in [C:\wamp\www\cakephpsqlserv\app\Controller\AppController.php, line 45]
+2012-12-06 17:30:47 Error: [FatalErrorException] Cannot redeclare AppController::$components
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\wamp\www\cak...', 45)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\wamp\www\cak...', 45, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\wamp\www\cak...', 45, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 17:30:50 Error: Fatal Error (64): Cannot redeclare AppController::$components in [C:\wamp\www\cakephpsqlserv\app\Controller\AppController.php, line 45]
+2012-12-06 17:30:50 Error: [FatalErrorException] Cannot redeclare AppController::$components
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\wamp\www\cak...', 45)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\wamp\www\cak...', 45, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\wamp\www\cak...', 45, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 17:30:54 Error: Fatal Error (64): Cannot redeclare AppController::$components in [C:\wamp\www\cakephpsqlserv\app\Controller\AppController.php, line 45]
+2012-12-06 17:30:54 Error: [FatalErrorException] Cannot redeclare AppController::$components
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\wamp\www\cak...', 45)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\wamp\www\cak...', 45, Array)
+#2 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\wamp\www\cak...', 45, Array)
+#3 C:\wamp\www\cakephpsqlserv\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 17:31:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-12-06 17:32:31 Error: [MissingActionException] Action HomeController::word() could not be found.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#4 {main}
+2012-12-06 19:40:29 Error: [MissingActionException] Action WordController::json&callback=jQuery1830008506570470187103_1354822829194() could not be found.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(WordController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#4 {main}
+2012-12-06 19:40:42 Error: [MissingActionException] Action WordController::json.json&callback=jQuery18303165039239846491_1354822842302() could not be found.
+#0 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephpsqlserv\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(WordController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#4 {main}
+2012-12-10 20:55:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}
+2012-12-10 20:55:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\cakephpsqlserv\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephpsqlserv\index.php(42): require('C:\wamp\www\cak...')
+#2 {main}

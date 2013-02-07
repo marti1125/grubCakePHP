@@ -3,6 +3,13 @@
 class WordController extends AppController {
 
     public $helpers = array('Html', 'Form');
+    public $components = array('RequestHandler');
+    public $paginate = array(
+        'limit' => 10,
+        'order' => array(
+            'Word.PK_word' => 'asc'
+        )
+    );
 
     public function index() {
 
@@ -52,6 +59,21 @@ class WordController extends AppController {
             $this->Session->setFlash('La grabación con el codigo: ' . $id . ' ah sido retirada.');
             $this->redirect(array('action' => 'index'));
         }
+    }
+
+    public function json() {
+
+        $this->layout = 'ajax'; 
+        
+        $words = $this->Word->find('all');
+
+        $this->set('words', $words);        
+     
+        $this->set('_serialize', 'words');   
+        
+        //$this->set(compact('words'));
+        
+        
     }
 
 }

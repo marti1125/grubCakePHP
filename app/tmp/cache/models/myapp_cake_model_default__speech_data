@@ -1,0 +1,2 @@
+1354822859
+a:5:{s:13:"PK_speechData";a:5:{s:4:"type";s:7:"integer";s:4:"null";b:0;s:7:"default";s:0:"";s:6:"length";i:11;s:3:"key";s:7:"primary";}s:9:"FK_speech";a:4:{s:4:"type";s:7:"integer";s:4:"null";b:1;s:7:"default";s:0:"";s:6:"length";s:1:"4";}s:12:"wordOriginal";a:4:{s:4:"type";s:4:"text";s:4:"null";b:1;s:7:"default";s:0:"";s:6:"length";N;}s:9:"wordClean";a:4:{s:4:"type";s:4:"text";s:4:"null";b:1;s:7:"default";s:0:"";s:6:"length";N;}s:7:"FK_word";a:4:{s:4:"type";s:7:"integer";s:4:"null";b:1;s:7:"default";s:0:"";s:6:"length";s:1:"4";}}
